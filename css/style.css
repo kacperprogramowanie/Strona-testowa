@@ -1,0 +1,72 @@
+body
+{
+    background-image: url(../img/1234.png);
+    background-position: center top;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 14;
+}
+
+.container
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.content
+{
+    background-color: whitesmoke;
+    width: 500px;
+    margin: auto;
+    border: 1px solid #000000;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content label{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 15px;
+
+}
+#dodano{
+    color: green;
+    margin-left: 20px;
+    width: 230px;
+}
+
+.footer
+{
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: cornsilk;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    transition-duration: 0.5s;
+    border-radius: 25px;
+}
+
+button:active{
+    background-color: violet;
+    transition-duration: 0.1s;
+}
+
+
+
